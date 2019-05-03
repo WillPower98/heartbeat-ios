@@ -29,7 +29,7 @@
 		8375F028227134780048B9D8 /* PredictorOptionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375F027227134780048B9D8 /* PredictorOptionTypes.swift */; };
 		8375F02B227135F80048B9D8 /* ImagePredictorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375F02A227135F80048B9D8 /* ImagePredictorProtocol.swift */; };
 		8375F02F22714D4E0048B9D8 /* NavigationBarCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375F02E22714D4E0048B9D8 /* NavigationBarCustomization.swift */; };
-		8375F03522721CE00048B9D8 /* HairColor+ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375F03422721CE00048B9D8 /* HairColor+ColorSlider.swift */; };
+		8375F03522721CE00048B9D8 /* SkyColor+ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375F03422721CE00048B9D8 /* SkyColor+ColorSlider.swift */; };
 		8379BD3E22725B72008E041D /* styleTransferBoston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8379BD3D22725B71008E041D /* styleTransferBoston.jpg */; };
 		8379BD4022725CF9008E041D /* eric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8379BD3F22725CF9008E041D /* eric.jpg */; };
 		8379BD462272604A008E041D /* hair1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8379BD452272604A008E041D /* hair1.jpg */; };
@@ -46,7 +46,7 @@
 		8396CA2D220A9FDC00742120 /* PoseEstimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8396CA2C220A9FDC00742120 /* PoseEstimationViewController.swift */; };
 		83AC97D72149CB8600E86B44 /* ImageSegmentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC97D62149CB8600E86B44 /* ImageSegmentationViewController.swift */; };
 		83D1E38A20FE441600DAAC90 /* Fritz-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E38920FE441600DAAC90 /* Fritz-Info.plist */; };
-		83E704B9226A4D4B00FF678D /* HairColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E704B8226A4D4B00FF678D /* HairColorViewController.swift */; };
+		83E704B9226A4D4B00FF678D /* SkyColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E704B8226A4D4B00FF678D /* SkyColorViewController.swift */; };
 		83F8B4962231932C00686149 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8B4952231932C00686149 /* FeatureViewController.swift */; };
 		83F8B4982231934F00686149 /* ModelGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8B4972231934F00686149 /* ModelGroupManager.swift */; };
 		83F8B49A2231A65C00686149 /* HeartbeatImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8B4992231A65C00686149 /* HeartbeatImagePredictor.swift */; };
@@ -112,7 +112,7 @@
 		8375F027227134780048B9D8 /* PredictorOptionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictorOptionTypes.swift; sourceTree = "<group>"; };
 		8375F02A227135F80048B9D8 /* ImagePredictorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictorProtocol.swift; sourceTree = "<group>"; };
 		8375F02E22714D4E0048B9D8 /* NavigationBarCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarCustomization.swift; sourceTree = "<group>"; };
-		8375F03422721CE00048B9D8 /* HairColor+ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HairColor+ColorSlider.swift"; sourceTree = "<group>"; };
+		8375F03422721CE00048B9D8 /* SkyColor+ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkyColor+ColorSlider.swift"; sourceTree = "<group>"; };
 		8379BD3D22725B71008E041D /* styleTransferBoston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = styleTransferBoston.jpg; sourceTree = "<group>"; };
 		8379BD3F22725CF9008E041D /* eric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eric.jpg; sourceTree = "<group>"; };
 		8379BD452272604A008E041D /* hair1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hair1.jpg; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		8396CA2C220A9FDC00742120 /* PoseEstimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimationViewController.swift; sourceTree = "<group>"; };
 		83AC97D62149CB8600E86B44 /* ImageSegmentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSegmentationViewController.swift; sourceTree = "<group>"; };
 		83D1E38920FE441600DAAC90 /* Fritz-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fritz-Info.plist"; sourceTree = "<group>"; };
-		83E704B8226A4D4B00FF678D /* HairColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HairColorViewController.swift; sourceTree = "<group>"; };
+		83E704B8226A4D4B00FF678D /* SkyColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyColorViewController.swift; sourceTree = "<group>"; };
 		83F8B4952231932C00686149 /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
 		83F8B4972231934F00686149 /* ModelGroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGroupManager.swift; sourceTree = "<group>"; };
 		83F8B4992231A65C00686149 /* HeartbeatImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatImagePredictor.swift; sourceTree = "<group>"; };
@@ -472,8 +472,8 @@
 			children = (
 				389074281FFDE68900DFF7F9 /* LabelImages */,
 				838B5289210242DD00E0D50A /* DetectObjects */,
-				83E704B8226A4D4B00FF678D /* HairColorViewController.swift */,
-				8375F03422721CE00048B9D8 /* HairColor+ColorSlider.swift */,
+				83E704B8226A4D4B00FF678D /* SkyColorViewController.swift */,
+				8375F03422721CE00048B9D8 /* SkyColor+ColorSlider.swift */,
 				8396CA2C220A9FDC00742120 /* PoseEstimationViewController.swift */,
 				83AC97D62149CB8600E86B44 /* ImageSegmentationViewController.swift */,
 				833E545B2123A9EB007EFA8A /* StyleTransferViewController.swift */,
@@ -650,6 +650,7 @@
 				"${PODS_ROOT}/FritzVisionHairSegmentationModel/Frameworks/FritzVisionHairSegmentationModel.framework",
 				"${PODS_ROOT}/FritzVisionLabelModel/Frameworks/FritzVisionLabelModel.framework",
 				"${PODS_ROOT}/FritzVisionObjectModel/Frameworks/FritzVisionObjectModel.framework",
+				"${PODS_ROOT}/FritzVisionOutdoorSegmentationModel/Frameworks/FritzVisionOutdoorSegmentationModel.framework",
 				"${PODS_ROOT}/FritzVisionPeopleSegmentationModel/Frameworks/FritzVisionPeopleSegmentationModel.framework",
 				"${PODS_ROOT}/FritzVisionPoseModel/Frameworks/FritzVisionPoseModel.framework",
 				"${PODS_ROOT}/FritzVisionStyleModelPaintings/Frameworks/FritzVisionStyleModelPaintings.framework",
@@ -668,6 +669,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionHairSegmentationModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionLabelModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionObjectModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionOutdoorSegmentationModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionPeopleSegmentationModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionPoseModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FritzVisionStyleModelPaintings.framework",
@@ -710,13 +712,13 @@
 				385CF1B31FF2EAA200F1BFF0 /* DemosViewController.swift in Sources */,
 				83FFFA94226BBDD80038EEE2 /* Locks.swift in Sources */,
 				83FFFA84226BB7620038EEE2 /* CameraResolutionExtension.swift in Sources */,
-				8375F03522721CE00048B9D8 /* HairColor+ColorSlider.swift in Sources */,
+				8375F03522721CE00048B9D8 /* SkyColor+ColorSlider.swift in Sources */,
 				83FFFA92226BBDD80038EEE2 /* Logging.swift in Sources */,
 				83FFFAA6226BCAD30038EEE2 /* GestureReconizerDelegateExtension.swift in Sources */,
 				839231F4222F8DF9001182EB /* ConfigurePopover.swift in Sources */,
 				839231F6222F9282001182EB /* FritzModelDetails.swift in Sources */,
 				8379BD4F22739102008E041D /* DebugImageExtensions.swift in Sources */,
-				83E704B9226A4D4B00FF678D /* HairColorViewController.swift in Sources */,
+				83E704B9226A4D4B00FF678D /* SkyColorViewController.swift in Sources */,
 				385CF1B81FF2F14700F1BFF0 /* DemoTableViewCell.swift in Sources */,
 				8325F7F522325A29007C1D38 /* LinkTableViewCell.swift in Sources */,
 				381817E31FE2DADD00050FF6 /* RootViewController.swift in Sources */,
@@ -903,11 +905,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8K5MDG3AQ8;
 				INFOPLIST_FILE = "$(SRCROOT)/Heartbeat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fritz.Heartbeat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritz.Heartbeat.WillPower98;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -924,11 +926,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8K5MDG3AQ8;
 				INFOPLIST_FILE = "$(SRCROOT)/Heartbeat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fritz.Heartbeat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritz.Heartbeat.WillPower98;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

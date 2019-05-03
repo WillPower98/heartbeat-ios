@@ -20,7 +20,7 @@ target 'Heartbeat' do
  # pod 'FritzVisionObjectModel', :path => '../../swift-sdk'
  # pod 'FritzVisionStyleModelPaintings', :path => '../../swift-sdk'
  # pod 'FritzVisionLivingRoomSegmentationModel', :path => '../../swift-sdk'
- # pod 'FritzVisionOutdoorSegmentationModel', :path => '../../swift-sdk'
+# pod 'FritzVisionOutdoorSegmentationModel', :path => '../../swift-sdk'
  # pod 'FritzVisionPeopleSegmentationModel', :path => '../../swift-sdk'
  # pod 'FritzVisionPeopleSegmentationMediumModel', :path => '../../swift-sdk'
  # pod 'FritzVisionPeopleAndPetSegmentationMediumModel', :path => '../../swift-sdk'
@@ -35,6 +35,8 @@ target 'Heartbeat' do
   pod 'Fritz/VisionSegmentationModel/People'
   pod 'Fritz/VisionSegmentationModel/Hair'
   pod 'Fritz/VisionPoseModel'
+  pod 'FritzVisionOutdoorSegmentationModel'
+  pod 'Fritz/VisionSegmentationModel/Outdoor'
 
   pod 'R.swift', '5.0.0.alpha.2'
 end

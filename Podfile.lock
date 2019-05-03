@@ -15,6 +15,8 @@ PODS:
     - FritzVisionPoseModel
   - Fritz/VisionSegmentationModel/Hair (3.3.1):
     - FritzVisionHairSegmentationModel
+  - Fritz/VisionSegmentationModel/Outdoor (3.3.1):
+    - FritzVisionOutdoorSegmentationModel
   - Fritz/VisionSegmentationModel/People (3.3.1):
     - FritzVisionPeopleSegmentationModel
   - Fritz/VisionStyleModel (3.3.1):
@@ -35,6 +37,8 @@ PODS:
     - FritzBase/Vision
   - FritzVisionObjectModel (3.3.1):
     - FritzBase/Vision
+  - FritzVisionOutdoorSegmentationModel (3.3.1):
+    - FritzBase/Vision
   - FritzVisionPeopleSegmentationModel (3.3.1):
     - FritzBase/Vision
   - FritzVisionPoseModel (3.3.1):
@@ -54,8 +58,10 @@ DEPENDENCIES:
   - Fritz/VisionObjectModel
   - Fritz/VisionPoseModel
   - Fritz/VisionSegmentationModel/Hair
+  - Fritz/VisionSegmentationModel/Outdoor
   - Fritz/VisionSegmentationModel/People
   - Fritz/VisionStyleModel
+  - FritzVisionOutdoorSegmentationModel
   - R.swift (= 5.0.0.alpha.2)
 
 SPEC REPOS:
@@ -68,6 +74,7 @@ SPEC REPOS:
     - FritzVisionHairSegmentationModel
     - FritzVisionLabelModel
     - FritzVisionObjectModel
+    - FritzVisionOutdoorSegmentationModel
     - FritzVisionPeopleSegmentationModel
     - FritzVisionPoseModel
     - FritzVisionStyleModelPaintings
@@ -83,12 +90,13 @@ SPEC CHECKSUMS:
   FritzVisionHairSegmentationModel: 0ecfabdbb8e6133a58ad36a5d96511e9589bb9b8
   FritzVisionLabelModel: b7b1f1b724cdf8efa7177aae4c2134e00e9b9e02
   FritzVisionObjectModel: 7180d4c1f711edb241895abbbe081adf810b4c24
+  FritzVisionOutdoorSegmentationModel: 51d8ea84fc8610b03e0e64e4ebbe75f8c4ab43d0
   FritzVisionPeopleSegmentationModel: 60638f70c319c66309b6e0c9faf255d8b41b2b9b
   FritzVisionPoseModel: 2845f5769d73bce9fab415b9b412f3d225bb61ad
   FritzVisionStyleModelPaintings: 82105cce713a73fb0d2fcb6113f55816a81b8720
   R.swift: 31fa1bd537fa81307815cc622122f33331f32174
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
 
-PODFILE CHECKSUM: fa50cd56c51e17c55c3f32775144ae90fa5539e6
+PODFILE CHECKSUM: 45a9c68c90a7c97d55e8056f29ff93766c22616f
 
 COCOAPODS: 1.6.1

@@ -11,7 +11,7 @@ import UIKit
 import ColorSlider
 
 
-extension HairColorViewController {
+extension SkyColorViewController {
 
   @objc func updateColor(_ slider: ColorSlider) {
     let color = slider.color

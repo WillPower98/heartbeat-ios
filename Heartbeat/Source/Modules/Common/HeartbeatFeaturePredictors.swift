@@ -16,7 +16,7 @@ enum HeartbeatFeaturePredictors: String, RawRepresentable {
   case outdoorSegmentation = "outdoor_image_segmentation"
   case flexibleStyleTransfer = "flexible_style_transfer"
   case styleTransfer = "custom_style_transfer"
-  case hairColor = "hair_color"
+  case skyColor = "sky_color"
   case poseEstimation = "pose_estimation"
   case multiPoseEstimation = "multi_pose_estimation"
   case unknown = "unknown"
@@ -29,8 +29,8 @@ enum HeartbeatFeaturePredictors: String, RawRepresentable {
       return ImageSegmentationViewController.defaultOptions
     case .outdoorSegmentation:
       return ImageSegmentationViewController.defaultOptions
-    case .hairColor:
-      return HairColorViewController.defaultOptions
+    case .skyColor:
+      return SkyColorViewController.defaultOptions
     case .flexibleStyleTransfer:
       return FlexibleStyleTransferViewController.defaultOptions
     case .styleTransfer:

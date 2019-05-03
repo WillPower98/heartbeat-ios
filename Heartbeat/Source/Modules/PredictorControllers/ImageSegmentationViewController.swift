@@ -57,7 +57,7 @@ class ImageSegmentationViewController: FeatureViewController {
       return nil
     }
     if let segmentationModel = segmentationModel {
-      return HeartbeatImagePredictor(model: segmentationModel, predictorDetails: predictorDetails)
+        return HeartbeatImagePredictor(model: segmentationModel as! ImagePredictor, predictorDetails: predictorDetails)
     }
     return nil
   }

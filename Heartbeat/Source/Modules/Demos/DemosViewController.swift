@@ -43,8 +43,8 @@ class DemosViewController: UITableViewController {
         viewController = StyleTransferViewController()
       case "FlexibleStyleTransfer":
         viewController = FlexibleStyleTransferViewController()
-      case "HairColor":
-        viewController = HairColorViewController()
+      case "SkyColor":
+        viewController = SkyColorViewController()
       default:
         return
       }

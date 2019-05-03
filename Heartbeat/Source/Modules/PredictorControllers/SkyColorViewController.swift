@@ -13,7 +13,7 @@ import Fritz
 import VideoToolbox
 import ColorSlider
 
-class HairColorViewController: FeatureViewController {
+class SkyColorViewController: FeatureViewController {
 
   /// Default options.  These are options that users can change on the feature page.
   /// When a predictor is build, it is instantiated with this option set.
@@ -49,17 +49,17 @@ class HairColorViewController: FeatureViewController {
   }
 
   override var debugImage: UIImage? { return UIImage(named: "hair1.jpg") }
-
   convenience init() {
-
-    let managedModel = FritzVisionHairSegmentationModel().managedModel
-    let hairSeg = FritzModelDetails(
-      with: managedModel,
-      featureDescription: .hairColor
+    let managedModel = FritzVisionOutdoorSegmentationModel.managedModel
+    let skySeg = FritzModelDetails(
+        with: managedModel,
+        featureDescription: .skyColor
     )
-    let group = ModelGroupManager(initialModel: hairSeg, tagName: nil)
-
-    self.init(modelGroup: group, title: "Hair Segmentation")
+    
+    
+    let group = ModelGroupManager(initialModel: skySeg, tagName: nil)
+    
+    self.init(modelGroup: group, title: "Sky Segmentation")
 
     // Configure camera options for this class.
     self.position = .front
@@ -92,8 +92,8 @@ class HairColorViewController: FeatureViewController {
     guard let mlmodel = predictorDetails.managedModel.loadModel() else { return nil }
 
     switch predictorDetails.featureDescription {
-    case .hairColor:
-      let model = FritzVisionHairSegmentationModel(model: mlmodel)
+    case .skyColor:
+      let model = FritzVisionOutdoorSegmentationModel(model: mlmodel)
       return HeartbeatImagePredictor(model: model, predictorDetails: predictorDetails)
     default:
       return nil
