@@ -63,7 +63,7 @@ class SkyColorViewController: FeatureViewController {
 
     // Configure camera options for this class.
     self.position = .front
-    self.streamBackgroundImage = false
+    self.streamBackgroundImage = true
     self.resolution = .vga640x480
   }
 
